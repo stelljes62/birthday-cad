@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎉 Happy Birthday</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #e91e63;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.5em;
+      color: #333;
+    }
+    .balloons {
+      font-size: 3em;
+      margin: 20px 0;
+      animation: float 2s infinite ease-in-out;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+    audio {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="balloons">🎈🎉🎂🎉🎈</div>
+  <h1>Happy Birthday Arthur</h1>
+  <p>Hope you had a wonderful day of joy, laughter, and surprises.</p>
+  <div class="balloons">🎈🎁🎊🎁🎈</div>
+
+  <!-- Optional birthday music -->
+  <audio controls autoplay>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
